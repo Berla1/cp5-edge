@@ -52,7 +52,7 @@ found 0 vulnerabilities
 
 A simulação pode ser acessada através do link: https://wokwi.com/projects/409891028149852161
 
-Para rodar o projeto, basca clicar no botão de 'play' em verde na simulação do Wokwi, se tudo ocorrer bem as informações serão publicadas no tópico especificado e o servo irá se movimentar de maneira independente.
+Para rodar o projeto, basca clicar no botão de 'play' em verde na simulação do Wokwi, se tudo ocorrer bem as informações serão publicadas no tópico especificado, os valores de luminosidade, temperatura e humidade podem ser editados de maneira manual clicando nos dispositivos LDR e DHT22.
 
 ## Conexão entre Node-red e Wokwi
 
