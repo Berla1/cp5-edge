@@ -59,26 +59,20 @@ Para rodar o projeto, basca clicar no botão de 'play' em verde na simulação d
 1. Com a plataforma do Node-red aberta, o bloco de "debug" na seção "comum" e três blocos "mqtt in" na seção "rede" devem ser arrastados para o meio do fluxo, e conectados entre si, o resultado deve ser algo semelhante a:
    
    <img src="https://i.imgur.com/oUw23d2.png"/>
-2. Com um duplo clique no bloco "mqtt in" o tópico: `/TEF/device010/servo/attrs/r` deve ser inserido no campo de tópico, dessa maneira:
+2. Com um duplo clique no bloco "mqtt in" os tópicos: `/TEF/device010/attrs/t`, `/TEF/device010/attrs/h` e `/TEF/device010/attrs/l` deve ser inserido no campo de tópico, dessa maneira:
+ 
+   **IMPORTANTE: Os 3 blocos devem ter os tópicos configurados, caso contrário os dados não serão passados.**
 
-   <img src="https://i.imgur.com/ArgpKaH.png"/>
+   <img src="https://i.imgur.com/8s4gxRF.png"/>
 
-3. Clicando no botão de + no campo de "Servidor", um nome deve ser passado ao servidor que será criado, pode ser um nome de sua escolha. No campo de servidor, o IP `18.208.160.16` e a porta `1883` devem ser inseridos, e o botão vermelho de adcionar pode ser clicado para adicionar o novo servidor:
+4. Clicando no botão de + no campo de "Servidor", um nome deve ser passado ao servidor que será criado, pode ser um nome de sua escolha. No campo de servidor, o IP `18.208.160.16` e a porta `1883` devem ser inseridos, e o botão vermelho de adcionar pode ser clicado para adicionar o novo servidor:
 
    <img src="https://i.imgur.com/Vf4AArF.png" />
 
-4. Agora tudo está pronto para receber dados da simulação do Wokwi, basta clicar no botão vermelho "Implementar" no canto superior direito da tela.
+5. Agora tudo está pronto para receber dados da simulação do Wokwi, basta clicar no botão vermelho "Implementar" no canto superior direito da tela.
 
- 5. Com a tela dividida entre simulação do Wokwi rodando e o Node-red aberto, os dados serão transmitidos:
+ 6. Com a tela dividida entre simulação do Wokwi rodando e o Node-red aberto, os dados serão transmitidos:
     
-    <img src="https://i.imgur.com/gZlMAxZ.png"/>
-
-
-## Detalhe
-
-Este é um projeto acadêmico feito na instituição FIAP em conjunto com a empresa e montadora de carros de Fórmula E Mahindra.
-
-<img src="https://store.fiaformulae.com/on/demandware.static/-/Sites-navigation-catalog-FE-S9/default/dw8427c471/LogosTeams/LogoMahindra2.png" alt="Logo Mahindra" width="300"/><img src="https://play-lh.googleusercontent.com/qRAt8XQzsRcEG7LGb7dwOBTuNocOV-lokZjZot4xwIv6wDfgAeFFB5HKkKb8VqZhHNc=w240-h480-rw" alt="Logo formulaE2" width="200"/> <img src="https://avatars.githubusercontent.com/u/79948663?s=200&v=4" alt="Logo FIAP" width="200"/>
-
+    <img src="[https://i.imgur.com/gZlMAxZ.png](https://i.imgur.com/vRun3oQ.png)"/>
 
 
