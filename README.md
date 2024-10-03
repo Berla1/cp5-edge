@@ -56,9 +56,9 @@ Para rodar o projeto, basca clicar no botão de 'play' em verde na simulação d
 
 ## Conexão entre Node-red e Wokwi
 
-1. Com a plataforma do Node-red aberta, o bloco de "debug" na seção "comum" e "mqtt in" na seção "rede" devem ser arrastados para o meio do fluxo, e conectados entre si, o resultado deve ser algo semelhante a:
+1. Com a plataforma do Node-red aberta, o bloco de "debug" na seção "comum" e três blocos "mqtt in" na seção "rede" devem ser arrastados para o meio do fluxo, e conectados entre si, o resultado deve ser algo semelhante a:
    
-   <img src="https://i.imgur.com/iltyz70.png"/>
+   <img src="https://i.imgur.com/oUw23d2.png"/>
 2. Com um duplo clique no bloco "mqtt in" o tópico: `/TEF/device010/servo/attrs/r` deve ser inserido no campo de tópico, dessa maneira:
 
    <img src="https://i.imgur.com/ArgpKaH.png"/>
