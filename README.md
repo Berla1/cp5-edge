@@ -73,6 +73,6 @@ Para rodar o projeto, basca clicar no botão de 'play' em verde na simulação d
 
  6. Com a tela dividida entre simulação do Wokwi rodando e o Node-red aberto, os dados serão transmitidos:
     
-    <img src="[https://i.imgur.com/gZlMAxZ.png](https://i.imgur.com/vRun3oQ.png)"/>
+    <img src="https://i.imgur.com/vRun3oQ.png"/>
 
 
